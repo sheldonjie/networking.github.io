@@ -1,37 +1,36 @@
-## Welcome to GitHub Pages
+## <span id="back">多址技术</span> ##
 
-You can use the [editor on GitHub](https://github.com/sheldonjie/networking.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+### [*<<Index*](http://sheldonjie.github.io/)
+----------
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+多址技术主要解决众多用户如何高效共享给定频谱资源的问题。
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+常见的多址方式有三种：频分多址（FDMA）、时分多址（TDMA）、码分多址（CDMA）。
 
-```markdown
-Syntax highlighted code block
+### 频分多址（FDMA）
 
-# Header 1
-## Header 2
-### Header 3
+定义：将给定的频谱资源划分为若干个等间隔的频道（或信道），供不同的用户使用。
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+### 时分多址（TDMA）
 
-**Bold** and _Italic_ and `Code` text
+定义：把时间分割成周期性的帧，每一帧分割成若干个时隙（无论帧或时隙都是互不重叠的）。
 
-[Link](url) and ![Image](src)
-```
+### 码分多址（CDMA）
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+定义：以扩频信号为基础，利用不同码型实现不同用户的信息传输。
 
-### Jekyll Themes
+> 扩频信号是一种经过伪随机序列调制的宽带信号，其宽带通常比原始信号带宽高几个量级。
+>
+> 常用的扩频信号有两类：跳频信号、直接序列信号（直扩信号）。
+> 对应的多址方式为：跳频码分多址（FH-CDMA）、直扩码分多址（DS-CDMA）。
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/sheldonjie/networking.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
+### 空分多址（SDMA）
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+定义：通过空间的分割来区别不同的用户。
+
+
+<br>
+[*^Back to Top^*](#back)
